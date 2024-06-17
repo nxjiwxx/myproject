@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.topbar_title {
+  padding: 0.9375rem;
+  font-family: "Lemon/Milk", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  background-color: aqua;
+}

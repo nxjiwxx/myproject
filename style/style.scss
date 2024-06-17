@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Pretendard Variable', Pretendard, Roboto, 'Noto Sans KR', 'Segoe UI',
+    'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    sans-serif;
+  color: black;
+  background-color: bisque;
+}
+
+p {
+  margin-block: 20px;
+}
+
+.topbar_title {
+  padding: 0.9375rem;
+  font-family: 'Lemon/Milk', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  background-color: aqua;
+}
+
+.p0 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 100px;
+  padding-block: 80px;
+  padding-inline: 250px;
+  background-color: black;
+
+  &_grid {
+    display: grid;
+    row-gap: 1.25rem;
+  }
+
+  &_title {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  &_subtitle {
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #d9d9d9;
+    list-style: none;
+  }
+
+  &_subtitle_part {
+    padding: 5px;
+  }
+}
+
+.p1 {
+  background-color: white;
+
+  &_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    column-gap: 200px;
+    padding-block: 100px;
+    padding-inline: 200px;
+  }
+
+  &_title {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+
+    &_text {
+      width: 120px;
+      font-family: 'Lemon/Milk', sans-serif;
+      font-size: 25px;
+      color: #00ffef;
+      text-align: center;
+      background-color: black;
+    }
+  }
+
+  &_part {
+    display: grid;
+    grid-template-columns: 170px 380px;
+
+    // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  &_part_img {
+    padding-bottom: 100px;
+  }
+
+  &_part_title {
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  &_part_subtitle {
+    max-width: 400px;
+    padding-left: 25px;
+    list-style: circle;
+  }
+
+  &_subtitle_part {
+    padding-block: 2px;
+    color: #b5b5b5;
+  }
+}
+
+.p2 {
+  height: 750px;
+  background-color: black;
+
+  &_title {
+    padding: 10px;
+    font-family: 'Lemon/Milk', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: black;
+  }
+
+  &_card {
+    display: flex;
+    gap: 4rem;
+    padding: 4rem;
+    overflow-x: scroll;
+    background-color: white;
+
+    &_part {
+      flex-shrink: 0;
+      width: 400px;
+      height: 500px;
+      text-align: center;
+      background-color: black;
+    }
+  }
+}
+
+.footer {
+  padding: 20px;
+  background-color: black;
+
+  &_text {
+    padding: 5px;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+  }
+}
