@@ -6,6 +6,7 @@ body {
   margin: 0;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .topbar_title {
   padding: 0.9375rem;
   font-family: "Lemon/Milk", sans-serif;
