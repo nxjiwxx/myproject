@@ -227,3 +227,16 @@ body {
     }
   }
 }
+
+.footer {
+  padding: 20px;
+  background-color: black;
+
+  &_text {
+    padding: 5px;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+  }
+}

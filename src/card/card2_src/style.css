@@ -98,11 +98,7 @@ body {
   text-align: center;
 }
 .p1_video {
-  display: block;
-  max-width: 100%;
-  padding-inline: 10px;
   padding-top: 50px;
-  margin-inline: auto;
 }
 
 .p2 {
@@ -126,10 +122,18 @@ body {
   text-align: center;
 }
 .p2_video {
-  display: block;
-  max-width: 100%;
-  padding-inline: 10px;
   padding-top: 50px;
-  padding-bottom: 20px;
-  margin-inline: auto;
+  padding-bottom: 50px;
+}
+
+.footer {
+  padding: 20px;
+  background-color: black;
+}
+.footer_text {
+  padding: 5px;
+  margin: 0;
+  font-weight: 500;
+  color: white;
+  text-align: center;
 }

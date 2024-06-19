@@ -115,11 +115,7 @@ body {
   }
 
   &_video {
-    display: block;
-    max-width: 100%;
-    padding-inline: 10px;
     padding-top: 50px;
-    margin-inline: auto;
   }
 }
 
@@ -147,11 +143,20 @@ body {
   }
 
   &_video {
-    display: block;
-    max-width: 100%;
-    padding-inline: 10px;
     padding-top: 50px;
-    padding-bottom: 20px;
-    margin-inline: auto;
+    padding-bottom: 50px;
+  }
+}
+
+.footer {
+  padding: 20px;
+  background-color: black;
+
+  &_text {
+    padding: 5px;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+    text-align: center;
   }
 }

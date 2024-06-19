@@ -107,8 +107,9 @@ body {
 
   &_img {
     display: block;
+    width: 80%;
     max-width: 100%;
-    padding-inline: 10px;
+    padding-inline: 20px;
     padding-top: 50px;
     margin-inline: auto;
   }
@@ -140,9 +141,23 @@ body {
 
   &_img {
     display: block;
+    width: 80%;
     max-width: 100%;
-    padding-inline: 10px;
+    padding-inline: 20px;
     padding-top: 50px;
     margin-inline: auto;
+  }
+}
+
+.footer {
+  padding: 20px;
+  background-color: black;
+
+  &_text {
+    padding: 5px;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+    text-align: center;
   }
 }

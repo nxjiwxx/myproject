@@ -194,3 +194,14 @@ body {
     max-height: 100%;
   }
 }
+.footer {
+  padding: 20px;
+  background-color: black;
+}
+.footer_text {
+  padding: 5px;
+  margin: 0;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
