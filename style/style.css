@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   color: black;
-  background-color: bisque;
+  background-color: black;
 }
 
 p {
@@ -15,9 +15,9 @@ p {
 
 /* stylelint-disable-next-line selector-class-pattern */
 .topbar_title {
-  padding: 0.9375rem;
-  font-family: "Lemon/Milk", sans-serif;
-  font-size: 1.25rem;
+  padding: 0.625rem;
+  font-family: "Galmuri7", sans-serif;
+  font-size: 25px;
   font-weight: 900;
   color: black;
   text-align: center;
@@ -53,7 +53,8 @@ p {
 }
 
 .p1 {
-  background-color: white;
+  padding-bottom: 200px;
+  background-color: black;
 }
 .p1_grid {
   display: grid;
@@ -67,14 +68,17 @@ p {
   display: flex;
   justify-content: center;
   padding-top: 200px;
+  padding-bottom: 50px;
 }
 .p1_title_text {
-  width: 120px;
-  font-family: "Lemon/Milk", sans-serif;
-  font-size: 25px;
-  color: #00ffef;
+  width: 140px;
+  padding-block: 2px;
+  font-family: "galmuri7", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
   text-align: center;
-  background-color: black;
+  background-color: aqua;
 }
 .p1_part {
   display: grid;
@@ -84,8 +88,10 @@ p {
   padding-bottom: 100px;
 }
 .p1_part_title {
+  font-family: "Galmuri14", sans-serif;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 300;
+  color: aqua;
 }
 .p1_part_subtitle {
   max-width: 400px;
@@ -103,18 +109,19 @@ p {
 }
 .p2_title {
   padding: 10px;
-  font-family: "Lemon/Milk", sans-serif;
+  font-family: "galmuri7", sans-serif;
   font-size: 25px;
-  color: white;
+  font-weight: 700;
+  color: black;
   text-align: center;
-  background-color: black;
+  background-color: aqua;
 }
 .p2_card {
   display: flex;
   gap: 4rem;
   padding: 4rem;
   overflow-x: scroll;
-  background-color: white;
+  background-color: black;
 }
 .p2_card_part {
   flex-shrink: 0;
@@ -122,6 +129,18 @@ p {
   height: 500px;
   text-align: center;
   background-color: black;
+  border: 2px solid #0ff;
+  transition: background-color 0.3s ease;
+}
+.p2_card_part_img {
+  padding-top: 150px;
+  margin: auto;
+}
+.p2_card_part_text {
+  padding: 30px;
+  font-family: "Galmuri7", sans-serif;
+  font-size: 40px;
+  color: aqua;
 }
 
 .footer {

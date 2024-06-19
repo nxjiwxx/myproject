@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css"
+    />
     <link
       rel="stylesheet"
       as="style"
@@ -11,14 +14,18 @@
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
     />
     <link rel="stylesheet" href="./style/style.css" />
+    <script src="./style/script.js" defer></script>
     <title>My Project</title>
   </head>
   <body>
     <div class="topbar">
-      <div class="topbar_title">@Zoorchive</div>
+      <div class="topbar_title">@ZOORCHIVES</div>
     </div>
+
     <div class="p0">
-      <img class="p0_img" src="./src/img/img_1.png" alt="" />
+      <div class="imageContainer">
+        <img class="p0_img_origin" src="./src/img/img_1.png" alt="" />
+      </div>
       <div class="p0_grid">
         <div class="p0_title">
           <p class="p0_title_part" style="color: white">안녕하세요.</p>
@@ -101,19 +108,63 @@
       </div>
     </div>
     <div class="p2">
-      <div class="p2_title">Click Your Major</div>
+      <div class="p2_title">CLICK YOUR MAJOR !</div>
       <div class="p2_card">
-        <div class="p2_card_part">
-          <a href="./src/card/card1.html"><img src="" alt="communication" /></a>
+        <div
+          class="p2_card_part"
+          onmouseover="changeColor(this)"
+          onmouseout="resetColor(this)"
+        >
+          <a href="./src/card/card1.html">
+            <img
+              class="p2_card_part_img"
+              src="./src/img/p1_1.png"
+              alt="communication"
+            />
+          </a>
+          <p class="p2_card_part_text">Communication</p>
         </div>
-        <div class="p2_card_part">
-          <a href="./src/card/card2.html"><img src="" alt="videography" /></a>
+        <div
+          class="p2_card_part"
+          onmouseover="changeColor(this)"
+          onmouseout="resetColor(this)"
+        >
+          <a href="./src/card/card2.html">
+            <img
+              class="p2_card_part_img"
+              src="./src/img/p1_2.png"
+              alt="Videography"
+            />
+          </a>
+          <p class="p2_card_part_text">Video</p>
         </div>
-        <div class="p2_card_part">
-          <a href="./src/card/card3.html"><img src="" alt="typography" /></a>
+        <div
+          class="p2_card_part"
+          onmouseover="changeColor(this)"
+          onmouseout="resetColor(this)"
+        >
+          <a href="./src/card/card3.html">
+            <img
+              class="p2_card_part_img"
+              src="./src/img/p1_3.png"
+              alt="Typography"
+            />
+          </a>
+          <p class="p2_card_part_text">Typo</p>
         </div>
-        <div class="p2_card_part">
-          <a href="./src/card/card4.html"><img src="" alt="illustration" /></a>
+        <div
+          class="p2_card_part"
+          onmouseover="changeColor(this)"
+          onmouseout="resetColor(this)"
+        >
+          <a href="./src/card/card4.html">
+            <img
+              class="p2_card_part_img"
+              src="./src/img/p1_4.png"
+              alt="illustration"
+            />
+          </a>
+          <p class="p2_card_part_text">illust</p>
         </div>
       </div>
     </div>

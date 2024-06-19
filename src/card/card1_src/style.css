@@ -4,15 +4,127 @@
 
 body {
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  background-color: black;
 }
 
 /* stylelint-disable-next-line selector-class-pattern */
+.topbar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
 .topbar_title {
+  position: absolute;
+  right: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0.9375rem;
-  font-family: "Lemon/Milk", sans-serif;
-  font-size: 1.25rem;
+  padding-inline: 9.375rem;
+  margin: 0 auto;
+  font-family: "galmuri7", sans-serif;
+  font-size: 0.9375rem;
   font-weight: 900;
   color: black;
   text-align: center;
   background-color: aqua;
+}
+.topbar_arrow {
+  position: absolute;
+  top: 0.9375rem;
+  left: 1.25rem;
+  z-index: 624.9375rem;
+}
+
+.p0 {
+  padding-top: 50px;
+}
+.p0_title {
+  padding-top: 80px;
+  padding-right: 100px;
+  padding-bottom: 15px;
+  font-family: "galmuri7", sans-serif;
+  font-size: 5rem;
+  color: white;
+  text-align: right;
+}
+.p0_subtitle {
+  padding-right: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  color: aqua;
+  text-align: right;
+}
+.p0_bottom {
+  padding-left: 100px;
+}
+.p0_bottom_title {
+  padding-top: 150px;
+  font-weight: 800;
+  color: white;
+}
+.p0_bottom_subtitle {
+  padding-left: 16px;
+  font-size: 12px;
+  color: #b5b5b5;
+}
+
+.p1 {
+  text-align: center;
+}
+.p1_subtitle {
+  padding: 200px 0 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+.p1_title {
+  padding-bottom: 20px;
+  font-family: "galmuri7", sans-serif;
+  font-size: 40px;
+  color: aqua;
+}
+.p1_text {
+  padding: 5px;
+  font-weight: 500;
+  color: #b5b5b5;
+  text-align: center;
+}
+.p1_img {
+  display: block;
+  max-width: 100%;
+  padding-inline: 10px;
+  padding-top: 50px;
+  margin-inline: auto;
+}
+
+.p2 {
+  text-align: center;
+}
+.p2_subtitle {
+  padding: 400px 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+}
+.p2_title {
+  padding-bottom: 20px;
+  font-family: "galmuri7", sans-serif;
+  font-size: 40px;
+  color: aqua;
+}
+.p2_text {
+  padding: 5px;
+  font-weight: 500;
+  color: #b5b5b5;
+  text-align: center;
+}
+.p2_img {
+  display: block;
+  max-width: 100%;
+  padding-inline: 10px;
+  padding-top: 50px;
+  margin-inline: auto;
 }
